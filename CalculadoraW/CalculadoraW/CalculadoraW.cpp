@@ -2,10 +2,13 @@
 #include <stdio.h>
 void main()
 {
-	float fLado, fArea;
-	printf("\nCalculadora para un cuadrado");
-	printf("\nMedida de lado:");
-		scanf_s("%f", &fLado);
-		fArea = fLado * fLado;
-		printf("\nEl area del cuadrado es :%f",fArea);
+	float fBase, fAltura, fArea;
+	printf("\nCalculadora para un Rectangulo");
+	printf("\nInserte medida de la base");
+	printf("\nBase:");
+		scanf_s("%f", &fBase);
+		printf("\nInserte medida de la altura\nAltura:");
+		scanf_s("%f", &fAltura);
+		fArea = fBase * fAltura;
+		printf("\nEl area del Rectangulo es :%f",fArea);
 }

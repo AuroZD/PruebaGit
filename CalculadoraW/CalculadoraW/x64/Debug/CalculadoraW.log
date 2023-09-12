@@ -1,3 +1,4 @@
 ﻿  CalculadoraW.cpp
 C:\Users\Usuario Final\source\repos\CalculadoraW\CalculadoraW\CalculadoraW.cpp(4,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+C:\Users\Usuario Final\source\repos\CalculadoraW\CalculadoraW\CalculadoraW.cpp(6,6): warning C4305: '=': truncation from 'double' to 'float'
   CalculadoraW.vcxproj -> C:\Users\Usuario Final\source\repos\CalculadoraW\x64\Debug\CalculadoraW.exe

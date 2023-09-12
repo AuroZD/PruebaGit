@@ -2,13 +2,12 @@
 #include <stdio.h>
 void main()
 {
-	float fBase, fAltura, fArea;
-	printf("\nCalculadora para un Rectangulo");
-	printf("\nInserte medida de la base");
-	printf("\nBase:");
-		scanf_s("%f", &fBase);
-		printf("\nInserte medida de la altura\nAltura:");
-		scanf_s("%f", &fAltura);
-		fArea = fBase * fAltura;
-		printf("\nEl area del Rectangulo es :%f",fArea);
+	float fRadio, fPi, fArea;
+	fPi=3.1416;
+	printf("\nCalculadora para Area de un circulo");
+	printf("\nInserte medida del radio");
+	printf("\nRadio:");
+		scanf_s("%f", &fRadio);
+		fArea = fRadio*fRadio*fPi;
+		printf("\nEl area del Circulo es :%f",fArea);
 }
